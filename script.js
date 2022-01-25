@@ -56,7 +56,7 @@ function draw() {
             drops[i] = 0;
         
         // Incrementing Y coordinate
-//         drops[i]++;
+        drops[i]++;
     }
 }
 
