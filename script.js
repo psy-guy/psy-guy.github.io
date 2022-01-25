@@ -23,7 +23,7 @@ for (var x = 0; x < columns; x++)
 function getColor() {
     return "rgba(" + moment().format('HH') + ","
                 + moment().format('mm') + ","
-                + moment().format('ss')  + ", 0.05)";
+                + moment().format('ss') + ")";
 }
 
 function getColorHex() {
@@ -56,7 +56,7 @@ function draw() {
             drops[i] = 0;
         
         // Incrementing Y coordinate
-//         drops[i]++;
+        drops[i]++;
     }
 }
 
