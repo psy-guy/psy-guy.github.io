@@ -32,8 +32,8 @@ function getColorHex() {
 
 // drawing the characters
 function draw() {
-    $("#color").css("background", getColorHex());
-    $('#color').html(getColorHex());
+//     $("#color").css("background", getColorHex());
+//     $('#color').html(getColorHex());
     
     // Get the BG color based on the current time i.e. rgb(hh, mm, ss)
     // translucent BG to show trail
